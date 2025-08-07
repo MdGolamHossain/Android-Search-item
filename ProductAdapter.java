@@ -1,4 +1,4 @@
-package com.sobeeKinun.addminapp.Product;
+package packagehere;
 
 import android.util.Log;
 import android.view.LayoutInflater;
