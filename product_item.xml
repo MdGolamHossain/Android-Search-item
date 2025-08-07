@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:layout_margin="@dimen/_5sdp"
+    android:orientation="vertical">
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/NextActivity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="@dimen/_7sdp"
+
+        app:cardElevation="0dp"
+        app:strokeWidth="0dp"
+        app:cardBackgroundColor="@color/card_background_color"
+        >
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="@dimen/_4sdp"
+        >
+
+        <TextView
+            android:id="@+id/tvProductId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Product ID: "
+            android:textIsSelectable="true"
+            android:textSize="@dimen/_16sdp"
+            android:textStyle="bold"
+
+            android:textColor="@color/brandColor"
+            android:layout_marginBottom="10dp" />
+
+        <TextView
+            android:id="@+id/textProductName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Prodcut Name: "
+            android:textIsSelectable="true"
+            android:textColor="@color/grey_font"
+            android:textSize="16sp"
+            android:layout_marginBottom="10dp"
+            />
+
+
+
+
+    </LinearLayout>
+    </com.google.android.material.card.MaterialCardView>
+</LinearLayout>
